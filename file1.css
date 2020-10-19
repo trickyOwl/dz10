@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #b07cf7;
+    color: white;
+}
+
+img {
+    widows: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    margin-top: 100px;
+    width: 35%;
+    text-align: center;
+}
+
+header div span {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+header div p {
+    font-size: 20px;
+}
+
+.pics-block {
+    margin-top: 55px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#block1 {
+    background: url(img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+    width: 390px;
+}
+
+#block1:hover .gradient {
+    background: 0;
+    background-image: 0;
+}
+
+#block1:hover .text {
+    color: black;
+}
+
+#block1:hover .author {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#block2:hover .gradient-2 {
+    background: 0;
+    background-image: 0;
+}
+
+#block2:hover .text2 {
+    color: black;
+}
+
+#block2:hover .author2 {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+#block3:hover .gradient-2 {
+    background: 0;
+    background-image: 0;
+}
+
+#block3:hover .text2 {
+    color: black;
+}
+
+#block3:hover .author2 {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+#block2 {
+    background: url(img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 328px;
+    width: 388px;
+}
+
+#block3 {
+    background: url(img/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 328px;
+    width: 388px;
+}
+
+.gradient {
+    background: transparent;
+    background-image: linear-gradient(to top, #000, rgba(255, 255, 255, 0.05));
+    position: relative;
+    height: 150px;
+    width: 380px;
+    top: 172px;
+    left: 9px;
+    transition: all 500ms linear;
+}
+
+.gradient-2 {
+    background: transparent;
+    background-image: linear-gradient(to top, #000, rgba(255, 255, 255, 0.05));
+    position: relative;
+    height: 100px;
+    width: 384px;
+    top: 223px;
+    left: 4px;
+}
+
+.date span:first-of-type {
+    font-size: 34px;
+}
+
+.date {
+    opacity: 0.78;
+    width: 70px;
+    height: 70px;
+    background-color: #4a515b;
+    border-radius: 8px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -125px;
+    left: 30px;
+}
+
+.text {
+    width: 80%;
+    position: relative;
+    color: white;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 20px;
+    left: 27px;
+    bottom: 10px;
+}
+
+.author {
+    position: relative;
+    color: white;
+    z-index: 5;
+    font-size: 14px;
+    left: 27px;
+    bottom: -15px;
+}
+
+.date2 span:first-of-type {
+    font-size: 34px;
+}
+
+.date2 {
+    opacity: 0.78;
+    width: 70px;
+    height: 70px;
+    background-color: #4a515b;
+    border-radius: 8px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    left: 30px;
+}
+
+.text2 {
+    width: 80%;
+    position: relative;
+    color: white;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 20px;
+    left: 27px;
+    bottom: -40px;
+}
+
+.author2 {
+    position: relative;
+    color: white;
+    z-index: 5;
+    font-size: 14px;
+    left: 27px;
+    bottom: -65px;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-top: 60px;
+    background-color: red;
+    border: 0;
+    font-weight: 700;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    color: white;
+}
+
+input:hover {
+    color: black;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.20);
+}
